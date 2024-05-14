@@ -1,0 +1,1452 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "49d24936-0e0b-467d-a66f-3e69c0cd1816",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "FINAL PROJECT",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Kenney Pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scout 5_Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scout 5_Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Scouts/33040718b770f21b5aa63b7bc789f464e63c1c4791541ae7c9a758bda8704966_Scout 5_Down_1.png",
+          "name": "Scout 5_Down_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scout 5_Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scout 5_Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Scouts/e5829edbfcafc7dd29fe153743137e2974609ca613df795f16e32d2666e829cc_Scout 5_Down_2.png",
+          "name": "Scout 5_Down_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scout 5_Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scout 5_Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Scouts/000ddb9561911d96225d72f35f9af34c3b054b0296f90ddbc7ec1d44bfa4ca68_Scout 5_Down_3.png",
+          "name": "Scout 5_Down_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scout 5_Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scout 5_Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Scouts/e32c5589e02da613636f3f97b980acd8b9e6b9b40b3da64176292a3228c920b1_Scout 5_Left_1.png",
+          "name": "Scout 5_Left_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scout 5_Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scout 5_Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Scouts/0d83e155c4d376533430174369b6d9feed45268a9d6262eda7807d4bf388956a_Scout 5_Left_2.png",
+          "name": "Scout 5_Left_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scout 5_Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scout 5_Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Scouts/8c7fc4bf302370b2429b9d97374573e674cdd6f564108eaff92972b1f498c766_Scout 5_Left_3.png",
+          "name": "Scout 5_Left_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scout 5_Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scout 5_Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Scouts/c3272c4f43d969d2e43d02c978733fb0373eda45933113b24dba6c6dbc4858a7_Scout 5_Right_1.png",
+          "name": "Scout 5_Right_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scout 5_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scout 5_Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Scouts/08c73b8dacac79451b833ebc5fecc7ece9da7b466d07f29349039e55f2d1736f_Scout 5_Right_2.png",
+          "name": "Scout 5_Right_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scout 5_Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scout 5_Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Scouts/1af38b9b02dfc9dfbdf7f187f43b881e779f1f210ccbff4cac43763f688a9b81_Scout 5_Right_3.png",
+          "name": "Scout 5_Right_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scout 5_Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scout 5_Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Scouts/3ef595112b8d263a34e6a48a71c87f6b2fd8ee8ed38cf33bed29054436450755_Scout 5_Up_1.png",
+          "name": "Scout 5_Up_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scout 5_Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scout 5_Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Scouts/b1bbb1de5ffae9b050617c1360ae55daeb0b946be6cb3db5fc658c78ff8882e6_Scout 5_Up_2.png",
+          "name": "Scout 5_Up_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Scout 5_Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scout 5_Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Scouts/360e66bdde407dda506323b102d11bb0e280f6e8a2278dc120cf728172243d73_Scout 5_Up_3.png",
+          "name": "Scout 5_Up_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "71wQhBkg9AL._AC_UY900_DpWeblab_.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "71wQhBkg9AL._AC_UY900_DpWeblab_.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level_321",
+      "name": "Level 1",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "Start screen",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
+          "layer": "",
+          "name": "obj_player2",
+          "persistentUuid": "10e977de-b3ed-440d-bcdc-8f776eb29454",
+          "width": 50,
+          "x": 14,
+          "y": 576,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "27da4616-a87f-4189-b9c1-1136ed49201b",
+          "width": 1280,
+          "x": 0,
+          "y": 672,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "b9bd3ec49c6a40a0511c8c58511a1d8651753339d7522993f049c745683cba74",
+          "name": "obj_player2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Scout 5_Down_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Scout 5_Down_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Scout 5_Down_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Scout 5_Left_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Scout 5_Left_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Scout 5_Left_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Scout 5_Right_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Scout 5_Right_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Scout 5_Right_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Up",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Scout 5_Up_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Scout 5_Up_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Scout 5_Up_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "yeezy1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "obj_player2"
+          },
+          {
+            "objectName": "yeezy1"
+          },
+          {
+            "objectName": "NewSprite"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1.5",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "obj_player2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "0",
+                "1281",
+                "1277",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Start_32screen",
+      "name": "Start screen",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 114,
+          "layer": "",
+          "name": "Title",
+          "persistentUuid": "4c2c9405-4bc5-432e-b3d4-781f63cc8ff1",
+          "width": 896,
+          "x": 128,
+          "y": 46,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "start_game",
+          "persistentUuid": "8b09fd0c-eaa6-4f11-a942-762dd72ad8bc",
+          "width": 0,
+          "x": 431,
+          "y": 640,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Title",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Grants Yeezy Run!",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "center",
+          "characterSize": 150,
+          "color": {
+            "b": 226,
+            "g": 144,
+            "r": 74
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 15,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Grants Yeezy Run!",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "center",
+            "characterSize": 150,
+            "color": "74;144;226"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "start_game",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "(press \"spacebar\" to begin)",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "(press \"spacebar\" to begin)",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "NewFolder",
+            "children": [
+              {
+                "objectName": "Title"
+              },
+              {
+                "objectName": "start_game"
+              }
+            ]
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Start screen\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 1\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene2",
+      "name": "Untitled scene2",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
