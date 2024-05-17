@@ -311,6 +311,15 @@
         "name": "obj_player5",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite5.png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -323,15 +332,15 @@
   "variables": [],
   "layouts": [
     {
-      "b": 209,
+      "b": 231,
       "disableInputWhenNotFocused": true,
       "mangledName": "Level_321",
       "name": "Level 1",
-      "r": 209,
+      "r": 129,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "Start screen",
-      "v": 209,
+      "v": 177,
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
@@ -372,7 +381,7 @@
           "layer": "",
           "name": "NewSprite",
           "persistentUuid": "27da4616-a87f-4189-b9c1-1136ed49201b",
-          "width": 1280,
+          "width": 2720,
           "x": 0,
           "y": 704,
           "zOrder": 2,
@@ -392,6 +401,70 @@
           "x": -64,
           "y": 0,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1,
+          "layer": "Layer",
+          "name": "sky",
+          "persistentUuid": "a68bcfc3-a6b2-445b-9d75-b7b448324a29",
+          "width": 64,
+          "x": -64,
+          "y": -64,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "layer": "",
+          "name": "cloud",
+          "persistentUuid": "0b3231c5-8fc1-4a17-89ba-ed2a1098a58e",
+          "width": 608,
+          "x": 160,
+          "y": 64,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "layer": "",
+          "name": "cloud",
+          "persistentUuid": "fde033ec-e4d4-4685-b7d6-9c81910de2bd",
+          "width": 160,
+          "x": 800,
+          "y": 224,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "layer": "",
+          "name": "cloud",
+          "persistentUuid": "9c8346ef-c74f-413d-99d6-77a6cc13c6ef",
+          "width": 288,
+          "x": 1248,
+          "y": 128,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -765,6 +838,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -784,6 +918,9 @@
           },
           {
             "objectName": "cloud"
+          },
+          {
+            "objectName": "NewSprite2"
           }
         ]
       },
@@ -798,7 +935,7 @@
               },
               "parameters": [
                 "",
-                "1.5",
+                "1.25",
                 "",
                 ""
               ]
@@ -820,7 +957,22 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "2717",
+                "760",
+                "",
+                "0"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -904,11 +1056,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
